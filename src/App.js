@@ -15,7 +15,6 @@ function App() {
   const [value, setvalue] = useState([]);
 
   function formdata(formValue) {
-    console.log(formValue);
     setvalue([...value, formValue]);
   }
 
