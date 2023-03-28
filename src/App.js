@@ -6,6 +6,7 @@ import CompB from "./Component/CompB";
 import CompC from "./Component/CompC";
 import Form from "./Component/Form";
 import FormDetails from "./Component/FormDetails";
+import JavascriptPrac from "./Component/JavascriptPrac";
 import Usereducer from "./Component/Usereducer";
 
 const Firstname = createContext();
@@ -39,6 +40,7 @@ function App() {
           </Lastname.Provider>
         </Firstname.Provider>
       } */}
+      <JavascriptPrac />
     </>
   );
 }
