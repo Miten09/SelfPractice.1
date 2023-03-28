@@ -1,6 +1,7 @@
 import { createContext } from "react";
 import { useState } from "react";
 import "./App.css";
+import Api from "./Component/Api";
 import CompA from "./Component/CompA";
 import CompB from "./Component/CompB";
 import CompC from "./Component/CompC";
@@ -40,7 +41,7 @@ function App() {
           </Lastname.Provider>
         </Firstname.Provider>
       } */}
-      <JavascriptPrac />
+      <Api />
     </>
   );
 }
