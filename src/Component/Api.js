@@ -5,18 +5,17 @@ function Api() {
 
   const api = "https://dummyjson.com/products";
 
-  async function getData() {
-    const response = await fetch(api);
+  function getData() {
+    /* const response = await fetch(api);
     const result = await response.json();
-
-    setdata(result.products);
-    //fetch(api)
-    // .then((response) => {
-    //  setdata(response.json().products);
-    // })
-    // .catch((err) => {
-    //   console.log(err);
-    // });
+     
+    setdata(result.products); */
+    fetch(api)
+      .then((response) => console.log("RESPONSE", response.json()))
+      .then((response) => response.json())
+      .catch((err) => {
+        console.log(err);
+      });
   }
 
   useEffect(() => {

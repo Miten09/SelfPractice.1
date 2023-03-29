@@ -9,6 +9,7 @@ import Form from "./Component/Form";
 import FormDetails from "./Component/FormDetails";
 import JavascriptPrac from "./Component/JavascriptPrac";
 import Timeout from "./Component/Timeout";
+import UseEffect from "./Component/UseEffect";
 import Usereducer from "./Component/Usereducer";
 
 const Firstname = createContext();
@@ -43,7 +44,10 @@ function App() {
         </Firstname.Provider>
       } */}
       {/*   <Api /> */}
+
+      {/*    <Api /> */}
       <Timeout />
+      {/*       <UseEffect /> */}
     </>
   );
 }
