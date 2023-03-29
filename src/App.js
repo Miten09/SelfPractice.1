@@ -8,6 +8,7 @@ import CompC from "./Component/CompC";
 import Form from "./Component/Form";
 import FormDetails from "./Component/FormDetails";
 import JavascriptPrac from "./Component/JavascriptPrac";
+import Timeout from "./Component/Timeout";
 import Usereducer from "./Component/Usereducer";
 
 const Firstname = createContext();
@@ -22,7 +23,7 @@ function App() {
 
   return (
     <>
-      <Form newvalue={formdata} />
+      {/*   <Form newvalue={formdata} />
       {value.map((v) => (
         <FormDetails
           first={v.firstname}
@@ -32,7 +33,7 @@ function App() {
           gender={v.gender}
           hobbies={v.hobbies}
         />
-      ))}
+      ))} */}
       {/* <Usereducer /> */}
       {/*  {
         <Firstname.Provider value={"miten soni"}>
@@ -41,7 +42,8 @@ function App() {
           </Lastname.Provider>
         </Firstname.Provider>
       } */}
-      <Api />
+      {/*   <Api /> */}
+      <Timeout />
     </>
   );
 }
